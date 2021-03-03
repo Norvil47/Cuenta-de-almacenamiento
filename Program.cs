@@ -59,6 +59,7 @@ namespace QueueApp
 
             CloudQueueClient queueClient = storageAccount.CreateCloudQueueClient();
             return queueClient.GetQueueReference("newsqueue");
+            
         }
     }
 }
